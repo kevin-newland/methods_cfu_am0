@@ -42,6 +42,13 @@
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/String.html
 # Include comments above each method call explaining the impact and return value of that method.
+name = "Kevin"
+greeting = "Nice to meet you"
+
+# The method .include? checks to see if the string contains the word Kevin. The return value will be true since the string does include "Kevin".
+puts name.include?("Kevin")
+# The method .end_with? checks to see if the string ends with the word you. The return value will be true since the string does end with "you".
+puts greeting.end_with?("you")
 
 # EXAMPLE
 # The start_with? method is called on the first_name variable, which stores the string object "Jeff". 
@@ -58,11 +65,22 @@ puts first_name.start_with?("J")
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
-
-
+number_students = 12
+number_teachers = 80
+# The calling method .even? checks to see if the integer is even.It will return true since 12 is a even number.
+ puts number_students.even?
+# The calling method .odd? checks to see if the integer is odd. It will return  false since 80 is a even number.
+ puts number_teachers.odd?
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+students = ["Kevin", "Sam", "Rose", "Jax"]
+evens = [2, 4, 6, 8, 10]
+# The calling method .index checks to see where the string "Rose" is positioned in the array. The return value will be 2 due to the fact that the array starts counting at 0.
+puts students.index("Rose")
+# The calling method .first checks to see what come first in the array. the return will be 2 because it is the first in the array.
+puts evens.first
