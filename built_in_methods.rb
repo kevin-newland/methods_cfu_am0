@@ -9,18 +9,30 @@
 "Hello World".downcase
 
 
+# The include method is called on the the string object "Hello World"
+# The include method checks if the string "Hello World" includes the substring "Hello"
+# The return value is "true"
 "Hello World".include?("Hello")
 
 
+# The end_with? method is called on the string "Hello World"
+# The end_with? method checks the string to see if it ends with the substring "Hello"
+# The return value is "false"
 "Hello World".end_with?("Hello")
 
 
+# The end_with method is called on the string "Hello World"
+# The end_with? method checks the string to see if it ends with the substring "rld"
+# The return value is "true"
 "Hello World".end_with?("rld")
 
-
+# The .even? method checks to see if a integer is even or odd
+# The method works by dividing the number by 2, if the remainder is 0 then it means it is even.
 12.even?
 
 
+# The next method is used to skip the rest of the iteration in a loop.
+# It can also be used with conditional statements
 18.next
 
 
